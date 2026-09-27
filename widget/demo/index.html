@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MintBot Widget Demo</title>
+    <style>
+      body {
+        font-family: Georgia, serif;
+        max-width: 720px;
+        margin: 60px auto;
+        padding: 0 24px;
+        line-height: 1.7;
+        color: #222;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Acme Coffee Roasters</h1>
+    <p>
+      This page simulates a client website with the MintBot chat widget and a MintBot
+      form embedded. Replace <code>data-bot-id</code> and <code>data-mintbot-form</code>
+      below with real keys from your dashboard, build the widget, and start the backend.
+    </p>
+
+    <h2>Get in touch</h2>
+    <!-- MintBot form embed -->
+    <div data-mintbot-form="REPLACE_WITH_FORM_KEY"></div>
+    <script src="http://localhost:4000/form.js" defer></script>
+
+    <!-- MintBot chat embed -->
+    <script
+      src="http://localhost:4000/widget.js"
+      data-bot-id="REPLACE_WITH_BOT_KEY"
+      defer
+    ></script>
+  </body>
+</html>

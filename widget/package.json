@@ -1,0 +1,17 @@
+{
+  "name": "mintbot-widget",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build && vite build --config vite.form.config.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "preact": "^10.26.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}
